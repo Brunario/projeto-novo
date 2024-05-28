@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -9,10 +10,20 @@
 <body>
     <div class="container">
          <div id="item1">
-            <div id="elemento1">elemento1</div>
+            <div id="elemento1">
+                <label for="">Calculadora-somar</label><br>
+                <label for="">Digite um numero </label><br>
+                <input type="number" id="num1"><br>
+                <label for="">Digite outro numero </label><br>
+                <input type="number" id="num2">
+                <button type="submit" onclick="somarnumeros()">somar</button>
+                <div>Resultado:</div>
+            </div>
             <div id="elemento2">elemento2</div>
             <div id="elemento3">elemento3</div>
             <div id="elemento4">elemento4</div>
+            <!-- div#item*5, div.container, div*4, div#item$*5 
+                alguns codigos para facilitar-->
          </div>
          <div id="item2">item2</div>
          <div id="item3">item3</div>
