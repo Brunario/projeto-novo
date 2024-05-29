@@ -41,6 +41,7 @@
     border: solid 1px black;
     height: 20%;
     width: 100%;
+    display: flex;
 }
 
 #item3{
@@ -59,4 +60,44 @@
     border: solid 1px black;
     height: 20%;
     width: 100%;
+}
+
+#resultadoSoma{
+    background-color: red;
+    color: white;
+}
+
+#resultadoSubtracao{
+    background-color: red;
+    color: white;
+}
+
+#resultadoMultiplicacao{
+    background-color: red;
+    color: white;
+}
+
+#resultadoDivisao{
+    background-color: red;
+    color: white;
+}
+
+#resultadoConversao{
+    background-color: red;
+    color: white;
+}
+
+#resultadoConversao1{
+    background-color: red;
+    color: white;
+}
+
+#areaRe{
+    background-color: red;
+    color: white;
+}
+
+#areaCircu{
+    background-color: red;
+    color: white;
 }
